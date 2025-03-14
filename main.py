@@ -12,10 +12,17 @@ markdown_page = f'---\ntitle: Chess Openings\nauthor: cotes\ndate: 2025-03-14 00
 markdown_page += f'tags: [favicon]\n---\n# Chess Openings\n'
 i = 1
 for elem in list:
-    markdown_page += f'{str(i)}. {elem.text} \n'
-    print(elem.text)
+    markdown_page += f'{str(i)}. {elem.text}\n'
     i+=1
 
+mylinks = soup.find_all("a")
+link = None
+for elem in mylinks:
+    if '#' not in elem.get("href"):
+        link = elem.get("href")
+        break
 
-with open("2025-03-14-Chess-Openings.md", "w", encoding="utf-8") as f:
+markdown_page += f'[random link]({link})'
+
+with open("index.md", "w", encoding="utf-8") as f:
     f.write(markdown_page)
