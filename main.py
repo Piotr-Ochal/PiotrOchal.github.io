@@ -12,18 +12,22 @@ list = soup.find("ol")
 
 markdown_page = f'---\ntitle: Chess Openings\nauthor: cotes\n' + f'date: 2025-03-14 00:30:00 +0800\n---\n# Chess Openings\n'
 
-i = 1
+myListElements = []
 for elem in list:
-    if i>10:
-        break
+    myListElements.append(elem.text)
+myListElements.sort()
+
+i = 1
+for elem in myListElements:
     time.sleep(2)
-    if '\'' in elem.text:
+    if '\'' in elem:
         continue
-    newFile = elem.text.replace(" ","") + ".md"
-    markdown_page += f'[{str(i)}. {elem.text}]({newFile})\n'
     
-    markdown_addition = f'# {elem.text}\n'
-    query = f'{elem.text} description'
+    newFile = elem.replace(" ","") + ".md"
+    markdown_page += f'{str(i)}. [{elem}]({newFile})\n'
+    
+    markdown_addition = f'# {elem}\n'
+    query = f'{elem} description'
     results = DDGS().text(
         keywords=query,
         region='wt-wt',
@@ -32,13 +36,12 @@ for elem in list:
         max_results=1,
     )
     
-    # Selecting and adding the description and link for a result found to markdown file
     body = ""
     for result in results:
-        body = f'\n### {result["body"]}\n[Read more]({result["href"]})'
+        body = f'\n### {result["body"]}\n[Read More]({result["href"]})'
         
     markdown_addition += body
-    markdown_addition += "\n\n[Main Page](index.md)"
+    markdown_addition += "\n\n[Return To Main Page](index.md)"
     with open(newFile, "w", encoding="utf-8") as f:
         f.write(markdown_addition)
     i+=1
@@ -50,7 +53,7 @@ for elem in mylinks:
         link = elem.get("href")
         break
 
-markdown_page += f'\n\n[original page]({link})'
+markdown_page += f'\n\n[Original Page]({link})'
 
 with open("index.md", "w", encoding="utf-8") as f:
     f.write(markdown_page)

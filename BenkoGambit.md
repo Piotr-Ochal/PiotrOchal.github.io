@@ -1,6 +1,6 @@
 # Benko Gambit
 
-### The gambit's most notable practitioner was its eponym, Pal Benko. Many of the world's strongest players have used it at one time or another, including former world champions Viswanathan Anand, Garry Kasparov, Veselin Topalov, Mikhail Tal, and Magnus Carlsen; and grandmasters Vasyl Ivanchuk, Michael Adams, Alexei Shirov, Boris Gelfand, and Evgeny Bareev. It is a popular opening at amateur level ...
-[Read more](https://en.wikipedia.org/wiki/Benko_Gambit)
+### The Benko Gambit (or Volga Gambit) is a chess opening characterised by the move 3...b5 in the Benoni Defence arising after: 1. d4 Nf6 2. c4 c5 3. d5 b5. Black sacrifices a pawn for enduring queenside pressure. White can accept or decline the gambit pawn. This article uses algebraic notation to describe chess moves.
+[Read More](https://en.wikipedia.org/wiki/Benko_Gambit)
 
-[Main Page](index.md)
+[Return To Main Page](index.md)
