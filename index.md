@@ -3,9 +3,7 @@ title: Chess Openings
 author: cotes
 date: 2025-03-14 00:30:00 +0800
 ---
-
 # Chess Openings
-
 1. [Alekhine’s Defense](Alekhine’sDefense.md)
 2. [Benko Gambit](BenkoGambit.md)
 3. [Benoni Defense](BenoniDefense.md)
@@ -48,5 +46,6 @@ date: 2025-03-14 00:30:00 +0800
 40. [Two Knights Defense](TwoKnightsDefense.md)
 41. [Vienna Game](ViennaGame.md)
 42. [Wade Defense](WadeDefense.md)
+
 
 [Original Page](https://chessfox.com/)

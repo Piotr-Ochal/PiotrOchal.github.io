@@ -1,6 +1,5 @@
 # Benoni Defense
 
-### The Benoni Defense is a chess opening for Black that starts with the moves 1.d4 Nf6 2.c4 c5. This opening creates an asymmetrical pawn structure. Black will aim for counterplay on the queenside, and will try by all means possible to take advantage of White's weak dark squares. The Benoni Defense often leads to sharp, double-edged positions.
-[Read More](https://www.365chess.com/chess-openings/Benoni-Defense)
+### The Benoni Defense, or simply the Benoni, is a chess opening characterized by an early reply of ...c5 against White's opening move 1.d4.. The original form of the Benoni, now known as the Old Benoni, is characterized by . 1. d4 c5. This leaves Black a few options such as an early ...f5 and an early dark-squared bishop trade by ...Be7-g5, but has the drawback that White is no longer committed ...  [Read More](https://en.wikipedia.org/wiki/Benoni_Defense)
 
-[Return To Main Page](index.md)
+[<- Benko Gambit](BenkoGambit.md)   [Return To Main Page](index.md)   [Bird’s Opening ->](Bird’sOpening.md)

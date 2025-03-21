@@ -17,14 +17,21 @@ for elem in list:
     myListElements.append(elem.text)
 myListElements.sort()
 
-i = 1
-for elem in myListElements:
+for i, elem in enumerate(myListElements):
     time.sleep(2)
+
+    prevName = myListElements[i-1] if i > 0 else ""
+    nextName = myListElements[i+1] if i+1 < len(myListElements) else ""
+    prevUrl = prevName.replace(" ","") + ".md"
+    nextUrl = nextName.replace(" ","") + ".md"
+
+    print(f'doing {elem}')
+
     if '\'' in elem:
         continue
     
     newFile = elem.replace(" ","") + ".md"
-    markdown_page += f'{str(i)}. [{elem}]({newFile})\n'
+    markdown_page += f'{str(i+1)}. [{elem}]({newFile})\n'
     
     markdown_addition = f'# {elem}\n'
     query = f'{elem} description'
@@ -38,13 +45,18 @@ for elem in myListElements:
     
     body = ""
     for result in results:
-        body = f'\n### {result["body"]}\n[Read More]({result["href"]})'
+        body = f'\n### {result["body"]}  [Read More]({result["href"]})'
         
     markdown_addition += body
-    markdown_addition += "\n\n[Return To Main Page](index.md)"
+    markdown_addition += "\n\n"
+    if i>0:
+        markdown_addition += f'[<- {prevName}]({prevUrl})   '
+    markdown_addition += "[Return To Main Page](index.md)"
+    if i+1 < len(myListElements):
+        markdown_addition += f'   [{nextName} ->]({nextUrl})'
+
     with open(newFile, "w", encoding="utf-8") as f:
         f.write(markdown_addition)
-    i+=1
 
 mylinks = soup.find_all("a")
 link = None

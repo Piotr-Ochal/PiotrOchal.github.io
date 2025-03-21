@@ -1,6 +1,5 @@
 # King’s Gambit
 
-### Gameplay [edit | edit source] Preparation [edit | edit source]. Tellstones: King's Gambit is played with a set of seven stones, each inscribed with a unique symbol. The first player to score three points wins the game. To start, lay out the playmat horizontally between the two players—during the game, this will be known as the Line.Place all seven stones face-up beside the playmat, so both ...
-[Read More](https://wiki.leagueoflegends.com/en-us/Tellstones:_King's_Gambit)
+### The King's Gambit Quest Description. No sooner had I reunited with Capon than another friendly encounter awaited us. However, right after that we had to split up again and go about our important tasks. I'll go to Kuttenberg to attend the City Council with King Sigismund, the others to Raborsch for a meeting of King Wenceslas' supporters. ...  [Read More](https://kingdomcomedeliverance2.wiki.fextralife.com/The+King's+Gambit)
 
-[Return To Main Page](index.md)
+[<- Italian Game](ItalianGame.md)   [Return To Main Page](index.md)   [King’s Indian Attack ->](King’sIndianAttack.md)

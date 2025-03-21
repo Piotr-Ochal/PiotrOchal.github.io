@@ -1,6 +1,5 @@
 # Budapest Gambit
 
-### The Budapest Gambit (or Budapest Defence) is a chess opening that begins with the moves: 1. d4 Nf6 2. c4 e5 Despite an early debut in 1896, the Budapest Gambit received attention from leading players only after a win as Black by Grandmaster Milan Vidmar over Akiba Rubinstein in 1918. [2] It enjoyed a rise in popularity in the early 1920s, but nowadays is rarely played at the top level. It ...
-[Read More](https://en.wikipedia.org/wiki/Budapest_Gambit)
+### The Budapest Gambit has never been widely used as Black by the top-ten chessplayers. Richard Réti used it five times in the period 1919-26 when he was among the ten best players in the world, [21] but he scored only 1½ points. [22] Savielly Tartakower used it four times in 1928 when he was the eighth-best player in the world, [23] including thrice in one tournament (Bad Kissingen 1928) but ...  [Read More](https://en.wikipedia.org/wiki/Budapest_Gambit)
 
-[Return To Main Page](index.md)
+[<- Bogo-Indian Defense](Bogo-IndianDefense.md)   [Return To Main Page](index.md)   [Caro-Kann Defense ->](Caro-KannDefense.md)
