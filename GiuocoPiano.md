@@ -1,5 +1,6 @@
 # Giuoco Piano
 
-### The Giuoco Piano (pronounced [ˈdʒwɔːko ˈpjaːno]; Italian for 'Quiet Game') [1] is a chess opening beginning with the moves: . 1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 "White aims to develop quickly - but so does Black. White can construct a pawn centre but in unfavourable conditions a centre which cannot provide a basis for further active play." [4]The name "Italian Game" is also commonly used ...  [Read More](https://en.wikipedia.org/wiki/Giuoco_Piano)
+### The Giuoco Piano, Italian for 'Quiet Game' and commonly known as the Italian Opening, is one of the oldest and most traditional chess openings out of the Italian game.. The opening follows a series of moves with the intention of quick development on both sides, offering tactical nuances and strategic possibilities in equal measure.  [Read More](https://ppqty.com/giuoco-piano/)
 
-[<- French Defense](FrenchDefense.md)   [Return To Main Page](index.md)   [Grünfeld Defense ->](GrünfeldDefense.md)
+|[<- French Defense](FrenchDefense.md)|[Return To Main Page](index.md)|[Grünfeld Defense ->](GrünfeldDefense.md)|
+|:----|:---:|----:|
