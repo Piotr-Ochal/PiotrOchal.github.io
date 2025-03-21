@@ -1,6 +1,5 @@
 # Alekhine’s Defense
 
-### Alekhine's Defence is a chess opening that begins with the moves: . 1. e4 Nf6. Black tempts White's pawns forward to form a broad pawn centre, with plans to undermine and attack the white structure later in the spirit of hypermodern defence. White's imposing mass of pawns in the centre often includes pawns on c4, d4, e5, and f4. Grandmaster Nick de Firmian observes of Alekhine's Defence in MCO ...  [Read More](https://en.wikipedia.org/wiki/Alekhine's_Defence)
+### The Alekhine's Defence is a defense when white plays against 1.e4. Black attacks the e4 pawn, encouraging White to advance his central pawns to chase the Knight away. Black's idea: White's pawn advances are permanent (since pawn's can't move backwards). So have White make irreversible pawn advances that can't be undone. Then once White's pawn structure is fixed, counter attack it.  [Read More](https://simplifychess.com/alekhine-defense/index.html)
 
-|     |[Return To Main Page](index.md)|[Benko Gambit ->](BenkoGambit.md)|
-|:----|:---:|----:|
+[Return To Main Page](index.md) --- [Benko Gambit ->](BenkoGambit.md)

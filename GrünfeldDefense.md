@@ -1,6 +1,5 @@
 # Grünfeld Defense
 
-### The Grünfeld Defence is a chess opening characterised by the moves: . 1. d4 Nf6 2. c4 g6 3. Nc3 d5. Black offers White the possibility of 4.cxd5, which may be followed by 4...Nxd5 and 5.e4, giving White an imposing central pawn duo. If White does not take the d5-pawn, Black may eventually play ...dxc4, when a White response of e4 again leads to the same pawn structure.  [Read More](https://en.wikipedia.org/wiki/Grünfeld_Defence)
+### The Grünfeld Defense starts with the moves 1.d4 Nf6 2.c4 g6 3.Nc3 d5. Black allows White to build a strong pawn center, planning to undermine it later with active piece play and targeted pawn breaks. This opening leads to complex and sharp positions that test both sides' strategic and tactical skills:  [Read More](https://chesscheatsheets.com/chess-openings/grunfeld-defense/what-are-the-pros-and-cons-of-the-grunfeld-defense/)
 
-|[<- Giuoco Piano](GiuocoPiano.md)|[Return To Main Page](index.md)|[Italian Game ->](ItalianGame.md)|
-|:----|:---:|----:|
+[<- Giuoco Piano](GiuocoPiano.md) --- [Return To Main Page](index.md) --- [Italian Game ->](ItalianGame.md)

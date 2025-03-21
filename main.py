@@ -49,17 +49,12 @@ for i, elem in enumerate(myListElements):
         
     markdown_addition += body
     markdown_addition += "\n\n"
-    if i>0:
-        markdown_addition += f'|[<- {prevName}]({prevUrl})'
-    else:
-        markdown_addition += f'|     '
-    markdown_addition += "|[Return To Main Page](index.md)|"
-    if i+1 < len(myListElements):
-        markdown_addition += f'[{nextName} ->]({nextUrl})|'
-    else: 
-        markdown_addition += f'     |'
 
-    markdown_addition += '\n|:----|:---:|----:|'
+    if i>0:
+        markdown_addition += f'[<- {prevName}]({prevUrl}) --- '
+    markdown_addition += "[Return To Main Page](index.md)"
+    if i+1 < len(myListElements):
+        markdown_addition += f' --- [{nextName} ->]({nextUrl})'
 
     with open(newFile, "w", encoding="utf-8") as f:
         f.write(markdown_addition)
